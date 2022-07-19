@@ -233,7 +233,7 @@ def get_implementation_version(implementation: str, version: str) -> dict:
     return None
 
 
-DEFAULT_NAME = "bcgovimages/aries-cloudagent"
+DEFAULT_NAME = "ditiacr001.azurecr.io/aries-cloudagent"
 
 
 parser = argparse.ArgumentParser(description="Generate an aries-cloudagent Docker image")

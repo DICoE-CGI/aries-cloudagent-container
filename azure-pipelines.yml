@@ -34,4 +34,4 @@ stages:
         containerRegistry: 'ACRConnection_DITI'
         repository: 'ditiacr001'
         command: 'push'
-        tags: 'ditiacr001.azurecr.io/aries-cloudagent:$(version)'
+        tags: ''

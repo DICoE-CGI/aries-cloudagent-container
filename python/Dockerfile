@@ -1,4 +1,4 @@
-ARG base_image
+ARG base_image="bcgovimages/von-image:py36-1.16-1"
 
 FROM ${base_image}
 
@@ -6,7 +6,7 @@ ARG agent_version
 ARG agent_implementation
 ARG tag_name=aries-cloudagent
 ARG tag_version=
-ARG acapy_reqs
+ARG acapy_reqs="[askar,bbs]"
 ARG git_egg_ref
 
 ENV SUMMARY="aries-cloudagent image" \

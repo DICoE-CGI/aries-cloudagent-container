@@ -27,4 +27,4 @@ stages:
         repository: 'ditiacr001'
         command: 'build'
         Dockerfile: '**/Dockerfile'        
-        tags: '$(ImageName)'
+        tags: ''

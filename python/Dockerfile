@@ -2,10 +2,10 @@ ARG base_image="ditiacr001.azurecr.io/von-image:py36-1.16-0"
 
 FROM ${base_image}
 
-ARG agent_version=0.7.2
+ARG agent_version=0.7.3
 ARG agent_implementation="python"
 ARG tag_name=aries-cloudagent
-ARG tag_version=0.7.5
+ARG tag_version=0.7.3
 ARG acapy_reqs="[askar,bbs]"
 ARG git_egg_ref
 

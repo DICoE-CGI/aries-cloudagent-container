@@ -5,7 +5,7 @@ FROM ${base_image}
 ARG agent_version=0.7.2
 ARG agent_implementation="python"
 ARG tag_name=aries-cloudagent
-ARG tag_version=0.7.3
+ARG tag_version=0.7.5
 ARG acapy_reqs="[askar,bbs]"
 ARG git_egg_ref
 

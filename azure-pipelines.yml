@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 variables:
-  ImageName: 'ditiacr001.azurecr.io/aries-cloudagent:$(Build.BuildId)'
+  ImageName: 'ditiacr001.azurecr.io/aries-cloudagent:$(version)'
 
 stages:
 - stage: Build
@@ -27,4 +27,4 @@ stages:
         repository: 'ditiacr001'
         command: 'build'
         Dockerfile: '**/Dockerfile'        
-        tags: ''
+        tags: '$(ImageName)'

@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 variables:
-  tag: '$(Build.BuildId)'
+  ImageName: 'ditiacr001.azurecr.io/aries-cloudagent:$(Build.BuildId)'
 
 stages:
 - stage: Build
@@ -26,5 +26,5 @@ stages:
         containerRegistry: 'ACRConnection_DITI'
         repository: 'ditiacr001'
         command: 'build'
-        Dockerfile: '**/Dockerfile'
+        Dockerfile: '**/Dockerfile'        
         tags: ''

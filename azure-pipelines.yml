@@ -38,6 +38,6 @@ stages:
       displayName: 'Push the Docker Image to ACR'
       inputs:
         containerRegistry: 'ACRConnection_DITI'
-        repository: 'ditiacr001'
+        repository: 'aries-cloudagent'
         command: 'push'
         tags: ''

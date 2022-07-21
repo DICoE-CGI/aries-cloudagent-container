@@ -27,7 +27,7 @@ stages:
         repository: 'aries-cloudagent'
         command: 'build'
         Dockerfile: '**/Dockerfile'
-        tags: 
+        tags: 'py36-1.16-1_0.7.3'
         addBaseImageData: false
     - task: Bash@3
       displayName: 'Tag Docker image'

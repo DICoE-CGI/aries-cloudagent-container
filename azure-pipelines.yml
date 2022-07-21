@@ -40,4 +40,4 @@ stages:
         containerRegistry: 'ACRConnection_DITI'
         repository: 'aries-cloudagent'
         command: 'push'
-        tags: ''
+        tags: 'py36-1.16-1_0.7.3'
